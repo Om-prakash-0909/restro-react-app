@@ -1,0 +1,82 @@
+
+
+.footer{
+    padding-top: 10px;
+    /* padding-bottom: 0px; */
+    background: #fde4e4;
+}
+
+.footer_logo img{
+    width: 20%;
+    margin-bottom: 5px;
+}
+.footer_logo h4{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.footer_logo p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 28px;
+}
+.delivery_time-item{
+    background: transparent !important;
+}
+.delivery_time-item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+}
+.delivery_time-item p{
+    color: #212245;
+}
+.footer_title{
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+}
+.newsletter{
+    padding: 5px ;
+    border: 1px solid#212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter span{
+    background:#212245;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.newsletter span i{
+    color: #df6060;
+}
+.newsletter input ::placeholder{
+    color: #212245;
+}
+.newsletter span i:hover{
+    color: rgb(185, 236, 185);
+}
+.social_links span i{
+    padding: 5px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 50%;
+}
+.social_links a{
+    text-decoration: none;
+}
+.copyright_text{
+    font-size: .8rem;
+    color: #df2020;
+}
